@@ -1259,7 +1259,7 @@ endef
 ps2pdf_normal	:= $(PS2PDF_NORMAL)
 ps2pdf_embedded	:= \
 	$(PS2PDF_EMBED) \
-	-dPDFSETTINGS=/printer \
+	-dPDFSETTINGS=/screen \
 	-dEmbedAllFonts=true \
 	-dSubsetFonts=true \
 	-dMaxSubsetPct=100
